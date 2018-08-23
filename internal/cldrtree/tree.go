@@ -5,8 +5,8 @@
 package cldrtree
 
 import (
-	"golang.org/x/text/internal/language/compact"
-	"golang.org/x/text/language"
+	"github.com/sunnogo/text/internal/language/compact"
+	"github.com/sunnogo/text/language"
 )
 
 const (

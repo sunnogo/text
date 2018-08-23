@@ -7,7 +7,7 @@ package bidirule
 import (
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
+	"github.com/sunnogo/text/internal/testtext"
 )
 
 var benchData = []struct{ name, data string }{

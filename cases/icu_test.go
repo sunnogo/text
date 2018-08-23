@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/language"
-	"golang.org/x/text/unicode/norm"
+	"github.com/sunnogo/text/internal/testtext"
+	"github.com/sunnogo/text/language"
+	"github.com/sunnogo/text/unicode/norm"
 )
 
 func TestICUConformance(t *testing.T) {

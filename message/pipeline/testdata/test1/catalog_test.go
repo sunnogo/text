@@ -8,7 +8,7 @@ import (
 	"path"
 	"testing"
 
-	"golang.org/x/text/message"
+	"github.com/sunnogo/text/message"
 )
 
 func TestCatalog(t *testing.T) {

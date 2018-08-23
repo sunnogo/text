@@ -7,7 +7,7 @@ package compact
 import (
 	"testing"
 
-	"golang.org/x/text/internal/language"
+	"github.com/sunnogo/text/internal/language"
 )
 
 func TestParents(t *testing.T) {

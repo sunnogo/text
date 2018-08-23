@@ -7,8 +7,8 @@ package number
 import (
 	"fmt"
 
-	"golang.org/x/text/internal/number"
-	"golang.org/x/text/language"
+	"github.com/sunnogo/text/internal/number"
+	"github.com/sunnogo/text/language"
 )
 
 // An Option configures a Formatter.

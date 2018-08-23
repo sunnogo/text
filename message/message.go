@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package message // import "golang.org/x/text/message"
+package message // import "github.com/sunnogo/text/message"
 
 import (
 	"io"
 	"os"
 
 	// Include features to facilitate generated catalogs.
-	_ "golang.org/x/text/feature/plural"
+	_ "github.com/sunnogo/text/feature/plural"
 
-	"golang.org/x/text/internal/number"
-	"golang.org/x/text/language"
-	"golang.org/x/text/message/catalog"
+	"github.com/sunnogo/text/internal/number"
+	"github.com/sunnogo/text/language"
+	"github.com/sunnogo/text/message/catalog"
 )
 
 // A Printer implements language-specific formatted I/O analogous to the fmt

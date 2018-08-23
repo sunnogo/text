@@ -6,15 +6,15 @@
 
 // Package charmap provides simple character encodings such as IBM Code Page 437
 // and Windows 1252.
-package charmap // import "golang.org/x/text/encoding/charmap"
+package charmap // import "github.com/sunnogo/text/encoding/charmap"
 
 import (
 	"unicode/utf8"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/internal"
-	"golang.org/x/text/encoding/internal/identifier"
-	"golang.org/x/text/transform"
+	"github.com/sunnogo/text/encoding"
+	"github.com/sunnogo/text/encoding/internal"
+	"github.com/sunnogo/text/encoding/internal/identifier"
+	"github.com/sunnogo/text/transform"
 )
 
 // These encodings vary only in the way clients should interpret them. Their

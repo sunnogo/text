@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/ucd"
+	"github.com/sunnogo/text/internal/gen"
+	"github.com/sunnogo/text/internal/ucd"
 )
 
 var (

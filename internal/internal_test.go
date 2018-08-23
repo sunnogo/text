@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/language"
+	"github.com/sunnogo/text/language"
 )
 
 func TestUnique(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/text/internal/colltab"
+	"github.com/sunnogo/text/internal/colltab"
 )
 
 var largetosmall = []stridx{

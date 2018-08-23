@@ -10,10 +10,10 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/charmap"
-	"golang.org/x/text/encoding/unicode"
-	"golang.org/x/text/transform"
+	"github.com/sunnogo/text/encoding"
+	"github.com/sunnogo/text/encoding/charmap"
+	"github.com/sunnogo/text/encoding/unicode"
+	"github.com/sunnogo/text/transform"
 )
 
 func ExampleDecodeWindows1252() {

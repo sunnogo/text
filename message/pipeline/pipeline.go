@@ -22,10 +22,10 @@ import (
 	"text/template"
 	"unicode"
 
-	"golang.org/x/text/internal"
-	"golang.org/x/text/language"
-	"golang.org/x/text/runes"
-	"golang.org/x/tools/go/loader"
+	"github.com/sunnogo/text/internal"
+	"github.com/sunnogo/text/language"
+	"github.com/sunnogo/text/runes"
+	"github.com/sunnogo/tools/go/loader"
 )
 
 const (

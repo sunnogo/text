@@ -16,11 +16,11 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/text/collate"
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/ucd"
-	"golang.org/x/text/language"
-	"golang.org/x/text/unicode/rangetable"
+	"github.com/sunnogo/text/collate"
+	"github.com/sunnogo/text/internal/gen"
+	"github.com/sunnogo/text/internal/ucd"
+	"github.com/sunnogo/text/language"
+	"github.com/sunnogo/text/unicode/rangetable"
 )
 
 var versionList = flag.String("versions", "",

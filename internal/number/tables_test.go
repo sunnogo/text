@@ -10,11 +10,11 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/language"
-	"golang.org/x/text/internal/language/compact"
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/unicode/cldr"
+	"github.com/sunnogo/text/internal/gen"
+	"github.com/sunnogo/text/internal/language"
+	"github.com/sunnogo/text/internal/language/compact"
+	"github.com/sunnogo/text/internal/testtext"
+	"github.com/sunnogo/text/unicode/cldr"
 )
 
 var draft = flag.String("draft",

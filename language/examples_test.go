@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"golang.org/x/text/language"
+	"github.com/sunnogo/text/language"
 )
 
 func ExampleCanonType() {

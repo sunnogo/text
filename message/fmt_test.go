@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/text/language"
+	"github.com/sunnogo/text/language"
 )
 
 type (

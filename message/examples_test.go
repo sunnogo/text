@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"golang.org/x/text/language"
-	"golang.org/x/text/message"
+	"github.com/sunnogo/text/language"
+	"github.com/sunnogo/text/message"
 )
 
 func Example_http() {

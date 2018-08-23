@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"golang.org/x/text/currency"
+	"github.com/sunnogo/text/currency"
 )
 
 func ExampleQuery() {

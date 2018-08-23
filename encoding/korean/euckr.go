@@ -7,10 +7,10 @@ package korean
 import (
 	"unicode/utf8"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/internal"
-	"golang.org/x/text/encoding/internal/identifier"
-	"golang.org/x/text/transform"
+	"github.com/sunnogo/text/encoding"
+	"github.com/sunnogo/text/encoding/internal"
+	"github.com/sunnogo/text/encoding/internal/identifier"
+	"github.com/sunnogo/text/transform"
 )
 
 // All is a list of all defined encodings in this package.

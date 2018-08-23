@@ -17,12 +17,12 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	fmtparser "golang.org/x/text/internal/format"
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/callgraph/cha"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
+	fmtparser "github.com/sunnogo/text/internal/format"
+	"github.com/sunnogo/tools/go/callgraph"
+	"github.com/sunnogo/tools/go/callgraph/cha"
+	"github.com/sunnogo/tools/go/loader"
+	"github.com/sunnogo/tools/go/ssa"
+	"github.com/sunnogo/tools/go/ssa/ssautil"
 )
 
 const debug = false
@@ -97,7 +97,7 @@ func (x *extracter) globalData(pos token.Pos) *constData {
 }
 
 func (x *extracter) seedEndpoints() {
-	pkg := x.prog.Package(x.iprog.Package("golang.org/x/text/message").Pkg)
+	pkg := x.prog.Package(x.iprog.Package("github.com/sunnogo/text/message").Pkg)
 	typ := types.NewPointer(pkg.Type("Printer").Type())
 
 	x.processGlobalVars()

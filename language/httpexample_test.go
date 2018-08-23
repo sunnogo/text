@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"golang.org/x/text/language"
+	"github.com/sunnogo/text/language"
 )
 
 // matcher is a language.Matcher configured for all supported languages.

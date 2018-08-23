@@ -17,9 +17,9 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/language"
-	"golang.org/x/text/unicode/cldr"
+	"github.com/sunnogo/text/internal/gen"
+	"github.com/sunnogo/text/language"
+	"github.com/sunnogo/text/unicode/cldr"
 )
 
 var (

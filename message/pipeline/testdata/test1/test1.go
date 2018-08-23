@@ -4,7 +4,7 @@
 
 package main
 
-import "golang.org/x/text/message"
+import "github.com/sunnogo/text/message"
 
 func main() {
 	p := message.NewPrinter(message.MatchLanguage("en"))

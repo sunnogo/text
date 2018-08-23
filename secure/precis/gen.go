@@ -15,11 +15,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/triegen"
-	"golang.org/x/text/internal/ucd"
-	"golang.org/x/text/unicode/norm"
-	"golang.org/x/text/unicode/rangetable"
+	"github.com/sunnogo/text/internal/gen"
+	"github.com/sunnogo/text/internal/triegen"
+	"github.com/sunnogo/text/internal/ucd"
+	"github.com/sunnogo/text/unicode/norm"
+	"github.com/sunnogo/text/unicode/rangetable"
 )
 
 var outputFile = flag.String("output", "tables.go", "output file for generated tables; default tables.go")

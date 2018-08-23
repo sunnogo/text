@@ -5,11 +5,11 @@
 package precis
 
 import (
-	"golang.org/x/text/cases"
-	"golang.org/x/text/language"
-	"golang.org/x/text/runes"
-	"golang.org/x/text/transform"
-	"golang.org/x/text/unicode/norm"
+	"github.com/sunnogo/text/cases"
+	"github.com/sunnogo/text/language"
+	"github.com/sunnogo/text/runes"
+	"github.com/sunnogo/text/transform"
+	"github.com/sunnogo/text/unicode/norm"
 )
 
 // An Option is used to define the behavior and rules of a Profile.

@@ -5,9 +5,9 @@
 package number_test
 
 import (
-	"golang.org/x/text/language"
-	"golang.org/x/text/message"
-	"golang.org/x/text/number"
+	"github.com/sunnogo/text/language"
+	"github.com/sunnogo/text/message"
+	"github.com/sunnogo/text/number"
 )
 
 func ExampleMaxIntegerDigits() {

@@ -141,7 +141,7 @@
 //
 //
 // This package is UNDER CONSTRUCTION and its API may change.
-package catalog // import "golang.org/x/text/message/catalog"
+package catalog // import "github.com/sunnogo/text/message/catalog"
 
 // TODO:
 // Some way to freeze a catalog.
@@ -156,10 +156,10 @@ import (
 	"errors"
 	"fmt"
 
-	"golang.org/x/text/internal"
+	"github.com/sunnogo/text/internal"
 
-	"golang.org/x/text/internal/catmsg"
-	"golang.org/x/text/language"
+	"github.com/sunnogo/text/internal/catmsg"
+	"github.com/sunnogo/text/language"
 )
 
 // A Catalog allows lookup of translated messages.
